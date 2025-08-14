@@ -38,10 +38,10 @@ function playGame() {
         const humanChoice = getHumanChoice();
         const computerChoice = getComputerChoice();
 
-        console.log("Jogador escolheu:", humanChoice);
-        console.log("Computador escolheu:", computerChoice);
+        console.log("Human chose:", humanChoice);
+        console.log("Computer chose:", computerChoice);
         console.log(playRound(humanChoice, computerChoice));
-        console.log(`Placar: Humano ${humanScore} - ${computerScore} Computador`);
+        console.log(`Result: Human ${humanScore} - ${computerScore} Computer`);
         console.log("------------------");
     };
 
